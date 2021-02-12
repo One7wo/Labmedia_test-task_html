@@ -118,12 +118,13 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 15px 0;
+  padding-right: 20px;
   border-bottom: 2px solid #dddddd;
   color: #9c9c9c;
 }
 
-.users-table__header .rating {
-  margin-right: 200px;
+.users-table__header .remove {
+  visibility: hidden;
 }
 
 .users-table__user-info {
@@ -145,10 +146,6 @@ body {
 .users-table__user-info .name {
   font-weight: bold;
   color: #62a6ff;
-}
-
-.users-table__user-info .rating {
-  margin-right: -140px;
 }
 
 .users-table__user-info .delete-btn {

@@ -104,11 +104,18 @@ body {
         display: flex;
         justify-content: space-between;
         padding: 15px 0;
+        padding-right: 20px;
         border-bottom: 2px solid #dddddd;
         color: #9c9c9c;
-        .rating {
-            margin-right: 200px;
+        .remove {
+            visibility: hidden;
         }
+        // .text {
+        //     margin-right: 25%;
+        // }
+        // .rating {
+        //     margin-right: 200px;
+        // }
     }
 
     &__user-info {
@@ -123,14 +130,20 @@ body {
             font-weight: bold;
             color: #62a6ff;
         }
-        .rating {
-            margin-right: -140px;
-        }
+        // .rating {
+        //     margin-right: -140px;
+        // }
         .delete-btn {
             color: #000000;
             cursor: pointer;
         }
     }
+    // &__user-info div:nth-child(1n) {
+    //     margin-right: 25%;
+    // }
+    // &__user-info div:nth-last-child(2) {
+    //     margin-right: 0;
+    // }
     &__user-info:nth-last-child(1) {
         border-bottom: 0;
     }
